@@ -1,0 +1,56 @@
+html {
+	box-sizing: border-box;
+}
+
+*,*:before, *:after {
+	box-sizing: inherit;
+}
+
+nav {
+	background-color: blue;
+	height: 100px;
+	padding-top: 25px;
+	padding-right: 25px;
+	font-size: 25px;
+	color:white;
+
+}
+
+.aboutContainer {
+  	display: flex;
+  	margin:auto;
+  	background-color: gray;
+  	height: 500px;
+  	width: 1000px;
+}
+.contact {
+	margin-right:250px;
+}
+.aboutInfo {
+	font-size:17px;
+  	display: block;
+  	height: 300px;
+ 	width: 300px;
+  	margin-top:150px;
+  	margin-left:200px;
+}
+.aboutPic {
+  	display: block;
+  	margin-left: 200px;
+  	margin-top: 150px;
+}	
+.profilePic {
+	height: 250px;
+	width: 250px;
+	border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+.portfolioContainer {
+	display:flex;
+	margin:auto;
+	height: 500px;
+	background-color: white;
+}
+
